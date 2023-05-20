@@ -28,7 +28,7 @@ O Projeto de banco de dados de uma biblioteca é um projeto desenvolvido com o o
 #### Funcionalidades:
 
 <br>
-<img align='center' src='biblioteca.png'/>
+<img align='center' src='Biblioteca.png'/>
 <br>
 
 <ul>
