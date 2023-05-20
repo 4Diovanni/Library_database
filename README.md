@@ -85,8 +85,19 @@ INSERT INTO Livros (id, titulo, autor, editora, ano_publicacao, isbn) VALUES
 (5, '1984', 'George Orwell', 'Companhia Editora Nacional', 1949, '978-85-221-0616-9'),
 (6, 'Percy Jackson e o Ladrão de Raios', 'Rick Riordan', 'Intrínseca', 2005, '9788598078355');
 ```
+### ⚡ Retirando o pó
 
+## Ainda trabalhando com código acima:
 
+<ul>
+<li>1. Adicione a regra <strong>AUTO_INCREMENT</strong> para a chave primária remova os dados referentes ao ID dos livros do script de inserção.</li>
+<br/>
+<li>2. Crie uma tabela para 'Autores' e outra para 'Editoras', para separar essas informações. Elas devem conter chaves primárias para gerar relacionamentos.</li>
+<br/>
+<li>3. Utilizando <strong>ALTER TABLE</strong>, elimine as colunas 'autor' e 'editora' da tabela 'Livros' e adicione as colunas 'autor_id' e 'editora_id' para fazer a referências como chave estrangeiras das referidas tabelas.</li>
+<br/>
+<li>4. Retire os valores para autores e para as editoras do script inicial e insira-os nas novas tabelas. </li>
+</ul>
 
 
 
