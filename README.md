@@ -134,7 +134,7 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE pa
 <br/>
 Nome: Giovanni Moreira
 <br/>
-E-mail: diovanni.2566@gmail.com
+E-mail: [diovanni.2566@gmail.com]
 <br/>
 LinkedIn: https://www.linkedin.com/in/giovanni-moreira-64654a254/
 
