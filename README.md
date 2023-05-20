@@ -99,10 +99,44 @@ INSERT INTO Livros (id, titulo, autor, editora, ano_publicacao, isbn) VALUES
 <li>4. Retire os valores para autores e para as editoras do script inicial e insira-os nas novas tabelas. </li>
 </ul>
 
+### ⚡ Colocando tudo no lugar
+<p>O script abaixo seria para adicionar novos livros na sua biblioteca, mas com as mudanças feitas para normalização e higienização da base é necessário reestruturar a base abaixo para evitar problemas.</p>
 
+## O Código Bagunçado:
+```
+INSERT INTO 
+Livros (identificador, titulo, autor, editora, ano_publicacao, isbn, autor_id, editora_id) 
+VALUES 
+(7, 'Grande Sertão: Veredas', 'João Guimarães Rosa', 'Nova Fronteira', 1956, '978-85-209-2325-1', 1, 1),
+(8, 'Memórias Póstumas de Brás Cubas', 'Machado de Assis', 'Companhia das Letras', 1881, '9788535910663', 2, 2),
+(9, 'Vidas Secas', 'Graciliano Ramos', 'Companhia Editora Nacional', 1938, '9788572326972', 3, 3),
+(10, 'O Alienista', 'Machado de Assis', 'Martin Claret', 1882, '9788572327429', 2, 4),
+(11, 'O Cortiço', 'Aluísio Azevedo', 'Penguin Companhia', 1890, '9788579027048', 4, 5),
+(12, 'Dom Casmurro', 'Machado de Assis', 'Penguin Companhia', 1899, '9788583862093', 2, 5),
+(13, 'Macunaíma', 'Mário de Andrade', 'Companhia Editora Nacional', 1928, '9788503012302', 6, 3);
+```
 
+### ⚡ Contribuição
+<p>Contribuições são o que tornam a comunidade open-source um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer serão <strong>muito apreciadas</strong>.</p>
 
+<ul>
+<li>1. Faça um Fork do projeto
+<li>2. Crie uma Branch para sua Feature (<strong>git checkout -b feature/AmazingFeature</strong>)
+<li>3. Faça o Commit das suas mudanças (<strong>git commit -m 'Add some AmazingFeature'</strong>)
+<li>4. Faça o Push para a Branch (<strong>git push origin feature/AmazingFeature</strong>)
+<li>5. Abra um Pull Request
+</ul>
 
+### ⚡ Licença
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para mais detalhes.
+
+### ⚡ Contato
+<br/>
+Nome: Giovanni Moreira
+<br/>
+E-mail: diovanni.2566@gmail.com
+<br/>
+LinkedIn: https://www.linkedin.com/in/giovanni-moreira-64654a254/
 
 
 
